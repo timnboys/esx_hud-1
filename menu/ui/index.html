@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <img id="cursorPointer" src="assets/cursor.png">
+        <a class="crosshair" href="#"></a>
+        <div class="crossFake"></div>
+
+        <ul class="menu menu-user">
+          <li><a class="cheer" href=""><span class="emoji">👏</span>Klaszcz</a></li>
+          <li id="kajdanki" style="opacity:0;"><a class="kajdanki" href="" style="border-right:10px solid #3184e0"><span class="emoji">🔫</span>Kajdanki</a></li>
+          <li id="dowod" style="display:none;"><a class="dowod" href=""><span class="emoji">💳</span>Dowód</a></li>
+          <li id="mandat" style="display:none;"><a class="mandat" href=""><span class="emoji">📝</span>Mandat</a></li>
+          <li id="rachunki" style="display:none;"><a class="rachunki" href=""><span class="emoji">💲</span>Rachunki</a></li>
+          <li id="faktura" style="display:none;"><a class="faktura" href=""><span class="emoji">📝</span><span class="text">Faktura</span></a></li>
+        </ul>
+        <ul class="menu menu-kajdanki">
+            <li id="zakuj"><a class="zakuj" href=""><span class="emoji">🔒</span><span class="text">Zakuj / Odkuj</span></a></li>
+            <li id="przemiesc"><a class="przemiesc" href=""><span class="emoji">🚶</span><span class="text">Przemieść</span></a></li>
+            <li id="przeszukaj"><a class="przeszukaj" href=""><span class="emoji">🔍</span><span class="text">Przeszukaj</span></a></li>
+            <li id="wloz"><a class="wloz" href=""><span class="emoji">🚗</span><span class="text">Włóż do auta</span></a></li>
+            <li id="wyciagnij"><a class="wyciagnij" href=""><span class="emoji">🚘</span><span class="text">Wyciągnij z auta</span></a></li>
+        </ul>
+
+        <ul class="menu menu-car">
+            <li><a class="openCoffre" href=""><span class="emoji">🚗</span><span class="text">Otwórz bagażnik</span></a></li>
+            <li><a class="openCapot" href=""><span class="emoji">🚘</span><span class="text">Otwórz maskę</span></a></li>
+            <li id="odholuj" style="display:none;"><a class="odholuj" href=""><span class="emoji">🔧</span><span class="text">Odholuj</span></a></li>
+            <li id="odblokuj" style="display:none;"><a class="odblokuj" href=""><span class="emoji">🔑</span><span class="text">Odblokuj</span></a></li>
+            <li id="informacje" style="display:none;"><a class="informacje" href=""><span class="emoji">ℹ️</span><span class="text">Informacje</span></a></li>
+            <li id="napraw" style="display:none;"><a class="napraw" href=""><span class="emoji">🔨</span><span class="text">Napraw</span></a></li>
+            <li id="wyczysc" style="display:none;"><a class="wyczysc" href=""><span class="emoji">🚿</span><span class="text">Polerowanie</span></a></li>
+        </ul>
+
+
+        <!-- JS Scripts -->
+        <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> -->
+        <script src="front.js" type="text/javascript"></script>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>
